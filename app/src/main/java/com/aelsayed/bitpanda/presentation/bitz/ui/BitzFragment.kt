@@ -31,17 +31,14 @@ class BitzFragment : BaseFragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentBitzBinding.inflate(inflater, container, false)
-        return binding.root
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
 
         setupRecycler()
         setupViewModel()
         setHasOptionsMenu(true)
 
+        return binding.root
     }
+
 
     private fun setupRecycler() {
         binding.itemErrorContainer.gone()
@@ -89,42 +86,33 @@ class BitzFragment : BaseFragment() {
     }
 
     private fun showDetails(item: RecyclerItem) {
-
+        var price = ""
         when (item) {
             is MetalUI -> {
+                price = item.price.roundToXDecimal(item.precision)
                 Toast.makeText(
                     context,
-                    item.price.roundToXDecimal(item.precision),
+                    price,
                     Toast.LENGTH_LONG
                 ).show()
-
-                this.findNavController().navigate(
-                    BitzFragmentDirections
-                        .actionListOfWalletsFragmentToDetailsViewFragment(
-                            item.price.roundToXDecimal(
-                                item.precision
-                            )
-                        )
-                )
             }
             is CryptocoinUI -> {
+                price = item.price.roundToXDecimal(item.precision)
                 Toast.makeText(
                     context,
-                    item.price.roundToXDecimal(item.precision),
+                    price,
                     Toast.LENGTH_LONG
                 ).show()
 
-                this.findNavController().navigate(
-                    BitzFragmentDirections
-                        .actionListOfWalletsFragmentToDetailsViewFragment(
-                            item.price.roundToXDecimal(
-                                item.precision
-                            )
-                        )
-                )
 
             }
         }
+        this.findNavController().navigate(
+            BitzFragmentDirections
+                .actionListOfWalletsFragmentToDetailsViewFragment(
+                    price
+                )
+        )
     }
 
 

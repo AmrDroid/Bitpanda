@@ -23,9 +23,6 @@
         android:name="com.aelsayed.bitpanda.presentation.bitz.ui.WalletDetailsFragment"
         android:label="Wallet Details"
         tools:layout="@layout/fragment_wallet_details">
-        <action
-            android:id="@+id/action_detailsViewFragment_to_listOfWalletsFragment"
-            app:destination="@id/bitzFragment" />
         <argument
             android:name="price"
             app:argType="string" />

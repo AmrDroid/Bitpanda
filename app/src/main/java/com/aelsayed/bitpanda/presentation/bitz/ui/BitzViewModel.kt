@@ -32,6 +32,9 @@ import javax.inject.Inject
     private val fiatWallet = mutableListOf<RecyclerItem>()
 
     fun getBitz() {
+        metalWallet.clear()
+        cryptoWallet.clear()
+        fiatWallet.clear()
         val finalList = mutableListOf<RecyclerItem>()
         getBitzUseCase(Unit)
             .map { bitz ->
