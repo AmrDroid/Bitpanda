@@ -73,3 +73,35 @@ Libraries used in the whole application are:
   <img src="screens/1.png" width="300">
   <img src="screens/2.png" width="300">
 </p>
+
+a. Let us know about some Apps that are currently out on the market, where you think they did a good job in development and justify your choice.
+
+Fitness Challenge Apps - Workout at Home by Leap Fitness GroupHealth and MEGA by Mega Ltd.
+What I like about these apps is it very user friendly which maybe one of the reasons for
+users retention. They provide easy to use features by not overloading the users with tons
+of complex features and have simple but captivating design. The simplicity and cool features
+definitely make them worth it.
+
+b. How would you handle this situation?
+The Product Owner comes over to you and asks for an implementation with which he can see the performance of his crypto wallet over the past weeks. He is an iOS user and doesn't know the Android
+platform too well. How would you approach this task?
+
+For this task, I will first have a discussion with Product owner where I will try to
+understand all the requirements. I would reiterate the task and its requirements to I have
+understood everything correctly. Then I will give a brief overview of the confirm if way I am
+thinking of solving this with performance in mind from android perspective and then later I will
+dig deep to research and find out all the possible ways of implementation and also decide on the
+criteria. After this I will weigh in the pros and cons of each method of implementation
+according to the criteria I defined earlier and select my best option. Then I will present
+all my findings to them and lastly inform them about my choice and its justification. Then we will
+discuss and choose the best fitting method. I will also follow the recommended solution of
+using Material Design guidelines for the app to operate consistently. I will have a brief
+discussion plan and design everything before I start. After implementing the first draft, I will
+demonstrate it and after approval I will go on to final finishes.
+
+
+c. What kind of (technical) projects do you work on in your spare time?
+https://play.google.com/store/apps/details?id=com.namshi.android
+https://play.google.com/store/apps/details?id=com.itmobix.ksaendeals
+https://play.google.com/store/apps/details?id=com.wajibaty.study
+https://play.google.com/store/apps/details?id=amrmustafa.whocalled
