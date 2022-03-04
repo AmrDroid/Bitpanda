@@ -102,6 +102,9 @@ demonstrate it and after approval I will go on to final finishes.
 
 c. What kind of (technical) projects do you work on in your spare time?
 https://play.google.com/store/apps/details?id=com.namshi.android
+
 https://play.google.com/store/apps/details?id=com.itmobix.ksaendeals
+
 https://play.google.com/store/apps/details?id=com.wajibaty.study
+
 https://play.google.com/store/apps/details?id=amrmustafa.whocalled
